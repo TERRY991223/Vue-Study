@@ -40,7 +40,7 @@ export default {
   }
   },
   methods:{
-    increseLike(id) {
+    increseLike(id) {  
       this.data.find(movie => {
         if(movie.id == id);
         movie.like += 1;
